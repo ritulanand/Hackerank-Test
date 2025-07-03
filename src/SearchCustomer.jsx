@@ -104,7 +104,7 @@ function SearchCustomer({customers, setInput}) {
     const filteredcustomers = filteredcustomer(customers, setInput);
 
   return (
-    <div>SearchCustomer
+    <div>
 
         {filteredcustomers.length > 0 ? (
             filteredcustomers.map((cust, i) => (
